@@ -17,8 +17,8 @@ def imprimeCadastro(nome, altura, sexo)
   puts "altura: " + altura.to_s
   puts "sexo: " + sexo
 
-  puts nome + "foi classificada como: " + identificaAltura(altura.to_f)
+  puts nome + " foi classificada como: " + identificaAltura(altura.to_f)
 
 end
 
-imprimeCadastro("Gabriel", 1.05, "Masculino")
+imprimeCadastro("Gabriel", 1.75, "Masculino")
